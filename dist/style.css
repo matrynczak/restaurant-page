@@ -1,0 +1,120 @@
+html {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.header ul {
+    display: flex;
+    height: 6vh;
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    background-color: #083154;
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+    align-items: center;
+}
+
+.header img {
+    height: 6vh;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+#content {
+    width: 75%;
+    background-color: lightslategrey;
+    padding: 20px;
+    min-height: 85vh;
+    opacity: 0.95;
+}
+
+.header li {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 2px solid;
+    margin-left: 2px;
+}
+
+.header li:hover {
+    background-color: lightslategrey;
+}
+
+.tab-clicked {
+    background-color: lightslategrey;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #083154;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+body {
+    background-image: url("../images/na-pulpit.com-bar-rerstauracja-stoliki-krzesla.jpg");
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    min-height: 100vh;
+    align-items: center;
+    font-family: fantasy;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.open-hours {
+    text-align: center;
+}
+
+.hours {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-wrapper {
+    padding: 20px;
+}
+
+.menu-wrapper div {
+    border: 4px solid white;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.menu-wrapper li {
+    text-decoration: underline;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu-wrapper ul {
+    padding: 0;
+}
+
+.ownership-note {
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    font-size: small;
+}
